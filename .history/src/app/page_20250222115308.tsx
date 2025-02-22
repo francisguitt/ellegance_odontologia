@@ -1,40 +1,41 @@
-
-
 'use client';
-
-import Bunner from "@/app/components/buner";
+import  Bunner  from "@/app/components/buner";
 import AboutUs from "@/app/about/page";
 import Services from "@/app/services_/page";
 import Team from "@/app/team/page";
 import Testimonials from "@/app/testimonials/page";
 import Contact from "@/app/contacts/page";
 
+
 export default function Home() {
   return (
     <main className="relative">
-      <section id="home" className="min-h-screen">
+     
+      <section id="home">
         <Bunner />
       </section>
 
-      <section id="about" className="min-h-screen pt-20 md:pt-24">
+      <section id="about m">
         <AboutUs />
-      </section>
+      </section> y
 
-      <section id="services" className="min-h-screen pt-20 md:pt-24">
+      <section id="services">
         <Services />
       </section>
 
-      <section id="team" className="min-h-screen pt-20 md:pt-24">
+      <section id="team">
         <Team />
       </section>
 
-      <section id="testimonials" className="min-h-screen pt-20 md:pt-24">
+      <section id="testimonials">
         <Testimonials />
       </section>
 
-      <section id="contact" className="min-h-screen pt-20 md:pt-24">
+      <section id="contact">
         <Contact />
       </section>
+
+  
     </main>
   );
 }

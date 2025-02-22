@@ -29,7 +29,7 @@ const Header = () => {
           <Image
             src={logo}
             alt="Ellegance Dental"
-            className="w-32 h-32"
+            className="w-36 h-36 text-co-[var(--primary-color)] rounded-full"
           />
         {/* </div> */}
 

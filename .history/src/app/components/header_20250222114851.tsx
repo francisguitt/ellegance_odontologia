@@ -29,9 +29,9 @@ const Header = () => {
           <Image
             src={logo}
             alt="Ellegance Dental"
-            className="w-32 h-32"
+            className="w-36 h-36"
           />
-        {/* </div> */}
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">

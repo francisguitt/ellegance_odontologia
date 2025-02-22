@@ -23,15 +23,15 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed w-full  bg-[var(--primary-color)] shadow-md z-50">
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-        {/* <div className="logo">  */}
+    <header className="fixed w-full shadow-md z-50">
+      <div className="container mx-auto bg-[var(--primary-color)]  flex justify-between items-center  text-center">
+        <div className="bg-[var(--primary-color)] "> 
           <Image
             src={logo}
             alt="Ellegance Dental"
-            className="w-32 h-32"
+            className="w-36 h-36 "
           />
-        {/* </div> */}
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
@@ -53,7 +53,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button 
           onClick={toggleMenu}
-          className="md:hidden text-gray-600 hover:text-blue-500 transition-colors"
+          className="md:hidden text-gray-600 hover:text-blue-500 transition-colors -mr2-1"
         >
           {isMenuOpen ? <IconX size={24} /> : <IconMenu2 size={24} />}
         </button>
