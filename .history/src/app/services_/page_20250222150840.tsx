@@ -118,7 +118,7 @@ const Services = () => {
     {
       title: 'Exames de Rotina',
       description: 'Avaliação completa da saúde bucal com equipamentos modernos e profissionais qualificados. Realizamos diagnóstico preventivo, radiografias digitais e limpeza profissional. Nosso objetivo é garantir um sorriso saudável através de check-ups regulares e cuidados personalizados.',
-      image: 'https://media.istockphoto.com/id/1830923530/pt/foto/female-dentist-using-interdental-toothbrush-for-perfect-clean-and-hygiene-her-woman-patient.jpg?s=612x612&w=0&k=20&c=zlgqQz4y6lxzhtUkR9IBpIGdUQ359omhTVoayv_265g='
+      image: ''
     },
     {
       title: 'Higiene Dental',
@@ -128,12 +128,12 @@ const Services = () => {
     {
       title: 'Branqueamento Dental',
       description: 'Transforme seu sorriso com nosso tratamento de clareamento dental profissional. Utilizamos técnicas avançadas e produtos de alta qualidade para resultados naturais e duradouros. Um procedimento seguro e eficaz que devolve o brilho aos seus dentes, aumentando sua autoestima e confiança ao sorrir.',
-      image: 'https://media.istockphoto.com/id/1910499093/pt/foto/process-of-using-brush-as-a-stage-of-professional-dental-cleaning.jpg?s=612x612&w=0&k=20&c=UOjv70nh-ViBLyfQ6BXA_FYWtNKcdR65EBCWLqa3CVU='
+      image: ''
     },
     {
       title: 'Cuidados Emergenciais',
       description: 'Atendimento rápido e eficiente para alívio imediato da dor e resolução de problemas urgentes. Nossa equipe está preparada para emergências como traumas dentais, dores intensas, quebra de restaurações e abscessos. Conte com nossa estrutura moderna e profissionais experientes para cuidar do seu sorriso nos momentos mais necessários.',
-      image: 'https://media.istockphoto.com/id/1602825161/pt/foto/scaling-and-root-planing-medically-accurate-3d-illustration-of-human-teeth-treatment.jpg?s=612x612&w=0&k=20&c=yFSamNIHzE5UKuS4KN8453-KBnKk0L4v2tiDCLEuaYg='
+      image: ''
     },
     {
       title: 'Preenchimento Dentário',

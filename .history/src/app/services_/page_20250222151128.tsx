@@ -133,7 +133,7 @@ const Services = () => {
     {
       title: 'Cuidados Emergenciais',
       description: 'Atendimento rápido e eficiente para alívio imediato da dor e resolução de problemas urgentes. Nossa equipe está preparada para emergências como traumas dentais, dores intensas, quebra de restaurações e abscessos. Conte com nossa estrutura moderna e profissionais experientes para cuidar do seu sorriso nos momentos mais necessários.',
-      image: 'https://media.istockphoto.com/id/1602825161/pt/foto/scaling-and-root-planing-medically-accurate-3d-illustration-of-human-teeth-treatment.jpg?s=612x612&w=0&k=20&c=yFSamNIHzE5UKuS4KN8453-KBnKk0L4v2tiDCLEuaYg='
+      image: ''
     },
     {
       title: 'Preenchimento Dentário',

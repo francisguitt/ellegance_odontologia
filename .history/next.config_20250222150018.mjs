@@ -27,34 +27,6 @@
 // export default nextConfig;
 
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     images: {
-//         remotePatterns: [
-//             {
-//                 protocol: 'https',
-//                 hostname: 'img.freepik.com',  // Domínio do Freepik
-//                 port: '',
-//                 pathname: '/**',  // Aceita qualquer caminho, incluindo parâmetros adicionais
-//             },
-//             {
-//                 protocol: 'https',
-//                 hostname: 'freepik.com',
-//                 port: '',
-//                 pathname: '/**',
-//             },
-//             {
-//                 protocol: 'https',
-//                 hostname: 'images.unsplash.com',  // Domínio do Unsplash
-//                 port: '',
-//                 pathname: '/**',
-//             }
-//         ],
-//     },
-// };
-
-// export default nextConfig;
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -63,7 +35,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'img.freepik.com',  // Domínio do Freepik
                 port: '',
-                pathname: '/**',
+                pathname: '/**',  // Aceita qualquer caminho, incluindo parâmetros adicionais
             },
             {
                 protocol: 'https',
@@ -74,18 +46,6 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'images.unsplash.com',  // Domínio do Unsplash
-                port: '',
-                pathname: '/**',
-            },
-            {
-                protocol: 'https',
-                hostname: 'media.istockphoto.com',  // Domínio do iStock
-                port: '',
-                pathname: '/**',
-            },
-            {
-                protocol: 'https',
-                hostname: 'images.pexels.com',  // Domínio do Pexels
                 port: '',
                 pathname: '/**',
             }

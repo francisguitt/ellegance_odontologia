@@ -55,6 +55,7 @@
 
 // export default nextConfig;
 
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -80,12 +81,6 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'media.istockphoto.com',  // Domínio do iStock
-                port: '',
-                pathname: '/**',
-            },
-            {
-                protocol: 'https',
-                hostname: 'images.pexels.com',  // Domínio do Pexels
                 port: '',
                 pathname: '/**',
             }
